@@ -1,0 +1,25 @@
+
+
+.clouds{
+    width:90px;
+    height:80px;
+    animation-name: movement;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes movement{
+   from{
+    transform: scale(1);
+   }
+   50%{
+    transform: scale(1.5);
+   }
+   to{
+    transform: scale(1);
+   }
+    
+}
